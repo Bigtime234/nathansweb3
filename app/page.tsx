@@ -8,7 +8,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 export default function NathansWeb3Landing() {
   const [scrollY, setScrollY] = useState(0);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-  const whatsappLink = "https://chat.whatsapp.com/CVBASrLReN72L42uFwstuo";
+  const whatsappLink = "https://chat.whatsapp.com/Cm5hXGbNn1yAoa4QnSPXQt?mode=wwt";
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);

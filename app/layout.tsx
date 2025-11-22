@@ -11,7 +11,7 @@ const cormorantGaramond = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "CodeByRiven | Web Development & Crypto Airdrops",
+  title: "web3",
   description: "Expert Web developer, cryptocurrency projects, DeFi applications, NFT platforms, and exclusive crypto airdrop opportunities. Stay updated with the latest Web3 trends and airdrop campaigns.",
   keywords: [
     "web3",
