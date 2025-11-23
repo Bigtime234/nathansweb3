@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 
-
 const cormorantGaramond = Cormorant_Garamond({
   variable: "--font-cormorant-garamond",
   subsets: ["latin"],
@@ -54,6 +53,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${cormorantGaramond.variable} antialiased`}>
         {children}
+        {/* Font: Cormorant Garamond - Designed by Christian Thalmann */}
       </body>
     </html>
   );
